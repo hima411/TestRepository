@@ -1,0 +1,18 @@
+<apex:page >
+  <apex:panelgrid columns="3" id="theGrid" border="3">
+      <apex:outputText value="One" id="theOne"></apex:outputText>
+       <apex:outputText value="Two" id="theTwo"></apex:outputText>
+        <apex:outputText value="Three" id="theThree"></apex:outputText>
+         <apex:outputText value="Four" id="theFour"></apex:outputText>
+          <apex:outputText value="Five" id="theFive"></apex:outputText>
+          <apex:panelGroup >
+           <apex:outputText value="Six" id="theSix"></apex:outputText>
+            <apex:outputText value="Seven" id="theSeven"></apex:outputText>
+            </apex:panelGroup>
+             <apex:outputText value="Eight" id="theEight"></apex:outputText>
+              <apex:outputText value="Nine" id="theNine"></apex:outputText>
+               <apex:outputText value="Ten" id="theTen"></apex:outputText>
+                <apex:outputText value="Eleven" id="theEleven"></apex:outputText>
+                 <apex:outputText value="Twelve" id="theTwelve"></apex:outputText>
+  </apex:panelgrid>
+</apex:page>

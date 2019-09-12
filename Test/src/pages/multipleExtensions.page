@@ -1,0 +1,3 @@
+<apex:page standardController="Account" extensions="ExtThree,ExtTwo,ExtOne">
+  <apex:outputText value="{!foo}"/>
+</apex:page>

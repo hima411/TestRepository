@@ -1,0 +1,12 @@
+<apex:page >
+  <apex:form >
+  <apex:OutputLabel value="Enter Name: " for="name"></apex:OutputLabel>
+  <apex:InputText id="name"/><br/><br/>
+  <apex:OutputLabel value="Enter username: " for="username"></apex:OutputLabel>
+  <apex:InputText id="username"/><br/><br/>
+  <apex:OutputLabel value="Enter Password: " for="password"></apex:OutputLabel>
+  <apex:Inputsecret id="password"/><br/><br/>
+  
+  <apex:outputLink value="https://login.salesforce.com">Salesforce</apex:outputLink>
+  </apex:form>
+</apex:page>

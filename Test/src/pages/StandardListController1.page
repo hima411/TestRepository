@@ -1,0 +1,13 @@
+<apex:page StandardController="Account" recordSetVar="Acc">
+<apex:form >
+    <apex:selectList value="{!filterid}" size="1">
+        <apex:selectOptions value="{!ListViewOptions}">
+        
+        </apex:selectOptions>
+    </apex:selectList>
+
+
+    <apex:commandButton value="Go!" action="{!List}"/>
+
+</apex:form> 
+</apex:page>

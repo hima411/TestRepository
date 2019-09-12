@@ -1,0 +1,7 @@
+<apex:page id="thePage">
+    <apex:tabPanel switchType="client">
+    <apex:tab label="Home" name="Home1" id="tabOne">Overall 9 years of IT experience that includes 4 years of experience in Salesforce.com CRM Platform, Apex, Visual Force, SOQL, SOSL and 5 years of experience in Siebel CRM development.</apex:tab>
+    <apex:tab label="Students" name="students1" id="tab2">Develop formulas and validation rules to ensure accuracy of business processes</apex:tab> 
+    </apex:tabPanel>
+ 
+</apex:page>
